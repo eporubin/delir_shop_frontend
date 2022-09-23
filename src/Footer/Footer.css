@@ -1,0 +1,20 @@
+:root{
+    --light-color: #FFF9F7;
+    --accent-color: #F711AC;
+    --paragraph-text: 'Poppins', sans-serif;
+}
+.copyright-container{
+    background-color: var(--light-color); 
+    max-width: 100%!important;
+}
+footer{
+    font-family: var(--paragraph-text);
+}
+i, h6{
+    color: var(--accent-color);
+}
+.company-name{
+    font-family:'Rochester', cursive;
+    text-transform: capitalize!important;
+    font-size: 50px;
+}

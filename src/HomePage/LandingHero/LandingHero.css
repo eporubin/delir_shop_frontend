@@ -1,0 +1,31 @@
+:root{
+    --accent-color: #F711AC;
+    --white-color: #F5F3F2;
+    --heading-text: 'Rochester', cursive;
+    --paragraph-text: 'Poppins', sans-serif;
+
+}
+
+.LandingHero container{
+    background-color: var(--white-color)!important;
+}
+
+h1{
+    font-family: var(--heading-text);
+    font-size: 100px!important;
+}
+
+
+p{
+    font-family: var(--paragraph-text)
+}
+
+.hero-button{
+    background-color: var(--accent-color)!important;
+    border: var(--white-color) 2px solid;
+}
+
+.hero-button-contact{
+    border: var(--accent-color) 2px solid;
+    color: var(--accent-color);
+}

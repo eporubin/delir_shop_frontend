@@ -1,0 +1,19 @@
+:root{
+    --light-color: #FFF9F7;
+    --accent-color: #F711AC;
+    --paragraph-text: 'Poppins', sans-serif;
+}
+.TopNav{
+    font-family: var(--paragraph-text) ;
+}
+.bg-color{
+    background-color: var(--light-color);
+}
+.btn-outline-bar{
+    border: 2px var(--accent-color) solid;
+}
+.btn-outline-bar:hover{
+    border: 2px white solid!important;
+    background-color: #F711AC!important;
+    color: white!important;
+}
